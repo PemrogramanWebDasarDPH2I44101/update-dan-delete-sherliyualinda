@@ -1,5 +1,5 @@
 <?php 
-include_once 'koneksi.php';
+include_once 'db.php';
 ?>
 
 <!DOCTYPE html>

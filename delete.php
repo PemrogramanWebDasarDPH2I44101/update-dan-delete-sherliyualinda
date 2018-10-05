@@ -1,5 +1,5 @@
 <?php
-include_once 'koneksi.php'; 
+include_once 'db.php'; 
 if (isset($_GET['id'])) {
 	$id = $_GET['id'];
 	$query = "DELETE FROM siswa WHERE id = '$id'";
